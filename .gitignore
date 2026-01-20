@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Neovim Session files
+Session.vim
+.shada
+
+# Netrw (file browser) history
+.netrwhist
+
+# Local lua settings that you might not want to share (optional)
+lua/user/local.lua
+
+# Note: You usually WANT to keep 'lazy-lock.json'.
+# This file ensures that your plugins stay at the specific versions
+# that work for you.
