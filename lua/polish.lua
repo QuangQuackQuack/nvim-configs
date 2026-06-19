@@ -6,3 +6,5 @@
 vim.keymap.set("t", "<Esc><Esc>", [[<C-\><C-n>]])
 
 vim.g.neovide_scroll_animation_length = 0.1 -- Duration in seconds (default is 0.3)
+
+vim.o.guifont = "JetBrainsMono Nerd Font:h12"
