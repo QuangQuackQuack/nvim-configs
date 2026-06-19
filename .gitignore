@@ -1,16 +1,38 @@
-# macOS
+# Project gitignore
+coc-settings.json
+
+# Global gitignore
+# ----------------
+
+# Mac OS X
+.AppleDouble
 .DS_Store
+.LSOverride
+._*
 
-# Neovim Session files
-Session.vim
-.shada
+# Windoze
+$RECYCLE.BIN/
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
 
-# Netrw (file browser) history
+# (Neo)Vim
+*~
 .netrwhist
+Session.vim
+Sessionx.vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+[._]*.un~
+tags
 
-# Local lua settings that you might not want to share (optional)
-lua/user/local.lua
+# VS Code
+.history
+.vscode
 
-# Note: You usually WANT to keep 'lazy-lock.json'.
-# This file ensures that your plugins stay at the specific versions
-# that work for you.
+# JetBrains
+.idea
